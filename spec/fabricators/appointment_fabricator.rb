@@ -1,0 +1,2 @@
+Fabricator(:appointment) do
+end
