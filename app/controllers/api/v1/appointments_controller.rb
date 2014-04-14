@@ -19,7 +19,7 @@ module Api
             #
             # = Examples (using cURL)
             #
-            #   curl --request GET http://localhost:3000/api/v1/appointments
+            #   curl --request GET http://appointments-api.herokuapp.com/api/v1/appointments
             #
             #   resp.status
             #   => 200
@@ -28,7 +28,7 @@ module Api
             #   => [{"id":1,"first_name":"ale","last_name":"paredes","comment":"","start_time":"2014-04-12T22:03:00.000Z",
             #        "end_time":"2014-04-12T23:03:00.000Z","created_at":"2014-04-12T21:05:00.000Z","updated_at":"2014-04-12T21:05:00.000Z"}]
             #   
-            #   curl --request GET http://localhost:3000/api/v1/appointments --data start_time="12/13/2014"
+            #   curl --request GET http://appointments-api.herokuapp.com/api/v1/appointments --data start_time="12/13/2014"
             #
             #   resp.status
             #   => 400
@@ -51,7 +51,7 @@ module Api
             #
             # = Examples (using cURL)
             #
-            #   curl --request GET http://localhost:3000/api/v1/appointments/1
+            #   curl --request GET http://appointments-api.herokuapp.com/api/v1/appointments/1
             #
             #   resp.status
             #   => 200
@@ -60,7 +60,7 @@ module Api
             #   => {"id":1,"first_name":"ale","last_name":"paredes","comment":"","start_time":"2014-04-12T22:03:00.000Z",
             #        "end_time":"2014-04-12T23:03:00.000Z","created_at":"2014-04-12T21:05:00.000Z","updated_at":"2014-04-12T21:05:00.000Z"}
             #   
-            #   curl --request GET http://localhost:3000/api/v1/appointments/300
+            #   curl --request GET http://appointments-api.herokuapp.com/api/v1/appointments/300
             #
             #   resp.status
             #   => 404
@@ -84,7 +84,7 @@ module Api
             #
             # = Examples (using cURL)
             #
-            #   curl --request POST http://localhost:3000/api/v1/appointments --data appointment[first_name]="Bruce" 
+            #   curl --request POST http://appointments-api.herokuapp.com/api/v1/appointments --data appointment[first_name]="Bruce" 
             #       --data appointment[last_name]="Wayne" --data appointment[start_time]="2014-04-12T15:15:00" 
             #       --data appointment[end_time]="2014-04-12T15:55:00" --data appointment[comment]="top secret"
             #
@@ -95,7 +95,7 @@ module Api
             #   => {"id":2,"first_name":"Bruce","last_name":"Wayne","comment":"top secret","start_time":"2014-04-13T15:15:00.000Z",
             #       "end_time":"2014-04-13T15:55:00.000Z","created_at":"2014-04-13T03:10:36.646Z","updated_at":"2014-04-13T03:10:36.646Z"}
             #   
-            #   curl --request POST http://localhost:3000/api/v1/appointments --data appointment[first_name]="" 
+            #   curl --request POST http://appointments-api.herokuapp.com/api/v1/appointments --data appointment[first_name]="" 
             #
             #   resp.status
             #   => 422
@@ -127,14 +127,14 @@ module Api
             #
             # = Examples (using cURL)
             #
-            #   curl --request PUT http://localhost:3000/api/v1/appointments/1 --data appointment[first_name]="Peter" 
+            #   curl --request PUT http://appointments-api.herokuapp.com/api/v1/appointments/1 --data appointment[first_name]="Peter" 
             #       --data appointment[last_name]="Paker" 
             #
             #   resp.status
             #   => 204
             #
             #   
-            #   curl --request PUT http://localhost:3000/api/v1/appointments/1 --data appointment[start_time]="2013-04-12T15:15:00"
+            #   curl --request PUT http://appointments-api.herokuapp.com/api/v1/appointments/1 --data appointment[start_time]="2013-04-12T15:15:00"
             #
             #   resp.status
             #   => 422
@@ -157,7 +157,7 @@ module Api
             #
             # = Examples (using cURL)
             #
-            #   curl --request DELETE http://localhost:3000/api/v1/appointments/1 
+            #   curl --request DELETE http://appointments-api.herokuapp.com/api/v1/appointments/1 
             #
             #   resp.status
             #   => 204
