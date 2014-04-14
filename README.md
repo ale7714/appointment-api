@@ -1,4 +1,4 @@
-appointment-api
+API Appointment
 ===============
 
-Demo Appointment API
+## Simple API to *CREATE*, *SHOW*, *UPDATE*, *DELETE* and *LIST* appointments ##
