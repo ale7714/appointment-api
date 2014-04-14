@@ -39,9 +39,9 @@ Technical information
 Testing
 ===============
 
-* rspec-rails: /rspec/rspec-rails 
-* shoulda-matchers: thoughtbot/shoulda-matchers
-* fabrication: paulelliott/fabrication
+* rspec-rails: [rspec/rspec-rails](https://github.com/rspec/rspec-rails)
+* shoulda-matchers: [thoughtbot/shoulda-matchers](https://github.com/thoughtbot/shoulda-matchers)
+* fabrication: [paulelliott/fabrication](https://github.com/paulelliott/fabrication)
 
 Specs can be found under *spec/* folder and can be execute with the following command:
 ```ruby
