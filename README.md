@@ -47,3 +47,8 @@ Specs can be found under *spec/* folder and can be execute with the following co
 ```ruby
 bundle exec rspec
 ```
+
+Documentation
+===============
+
+Documentation can be found under *doc/* folder
