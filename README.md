@@ -29,6 +29,12 @@ curl --request POST http://appointments-api.herokuapp.com/api/v1/appointments
 --data appointment[comment]="top secret"
 ```
 
+Documentation
+===============
+
+Documentation can be found [HERE](http://appointments-doc.herokuapp.com/) or under *doc/* folder 
+
+
 Technical information
 ===============
 
@@ -48,7 +54,3 @@ Specs can be found under *spec/* folder and can be execute with the following co
 bundle exec rspec
 ```
 
-Documentation
-===============
-
-Documentation can be found under *doc/* folder
