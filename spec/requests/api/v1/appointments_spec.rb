@@ -181,8 +181,8 @@ describe 'Appointments API' do
 
 
             it "returns the erorrs" do
-                errors = {"errors"=>{"end_time"=>["Time period can not overlap with existing appointments"], 
-                                    "start_time"=>["Time period can not overlap with existing appointments"]}}
+                errors = {"errors"=>{"base"=>["Time period can not overlap with existing appointments"]}}
+
                 expect(json).to eq(errors)
             end
 
